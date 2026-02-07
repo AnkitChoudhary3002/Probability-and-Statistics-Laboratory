@@ -1,43 +1,23 @@
-# Probability-and-Statistics-Laboratory
-- About the Project
+Probability-and-Statistics-Laboratory
 
-This project implements a fully logic-based random number function and statistical analysis system in C++.
-All algorithms (random number generation, rounding, sorting, median, and mode calculation) are implemented from scratch without using any STL or external libraries.
+C++ implementations of random number generation and statistical analysis built from scratch (no STL, no external libraries).
 
-The program uses a Linear Congruential Generator (LCG) to generate uniform random numbers in a user-defined interval and then performs statistical operations purely through custom logic.
+Contents
 
-- Key Features
+LCG (Uniform Distribution)
+Mean, median, mode, sorting, rounding
 
-Custom Linear Congruential Generator (LCG)
+Marsaglia Polar Method (Normal Distribution)
+Gaussian sample generation, mean & variance, error analysis
 
-Generates uniform random numbers in the interval [a, b]
+Tech Stack
 
-Rounds values to 3 decimal places using arithmetic logic
+C++
 
-Manual Bubble Sort implementation
+iostream, cmath
 
-Median calculation (odd & even cases)
+Arrays, loops, conditionals
 
-Mode calculation using linear scan
+Learning Focus
 
-Array splitting and reverse-order display
-
-No STL, No math/statistics libraries used
-
-Technologies Used
-
-- C++
-
-Basic I/O (iostream)
-
-Core programming constructs (loops, arrays, conditionals)
-
-Learning Outcomes
-
-Understanding of pseudo-random number generation
-
-Implementation of sorting algorithms
-
-Hands-on practice with statistical concepts
-
-Strengthening logic-building and algorithmic thinking
+Random number generation • Statistics • Monte Carlo methods • Algorithmic thinking
